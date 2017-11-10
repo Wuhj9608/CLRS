@@ -2,6 +2,9 @@
 // Created by frank1in on 11/8/17.
 //
 
+/*
+ * 时间复杂度为 n^2
+ */
 #ifndef CLRS_BUBBLE_SORT_HPP
 #define CLRS_BUBBLE_SORT_HPP
 

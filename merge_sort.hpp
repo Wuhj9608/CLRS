@@ -2,6 +2,10 @@
 // Created by frank1in on 11/10/17.
 //
 
+/*
+ * 时间复杂度为 nlgn
+ */
+
 #ifndef CLRS_MERGE_SORT_HPP
 #define CLRS_MERGE_SORT_HPP
 

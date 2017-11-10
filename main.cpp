@@ -2,6 +2,7 @@
 #include "insertion_sort.hpp"
 #include "bubble_sort.hpp"
 #include "merge_sort.hpp"
+#include "quick_sort.hpp"
 #include "base.hpp"
 #include <random>
 #include <array>
@@ -25,7 +26,12 @@ int main() {
   std::array b(a);
   bubble_sort(b);
   std::array c(a);
-  merge_sort(c, 0, c.size());
+  quick_sort(c, 0, c.size());
+  /*
+  print_array(a);
+  print_array(b);
+  print_array(c);
+   */
   std::cout << "c == b: " << (c == b) << std::endl;
 
   return 0;
